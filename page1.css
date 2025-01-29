@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Zmień na właściwą ścieżkę obrazu */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+    /* Styl dla sekcji */
+    header, main, footer {
+        border: 3px solid #333;
+        padding: 20px;
+        margin: 5%;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        max-width: 90%;
+    }
+
+    /* Media queries dla responsywności */
+    @media (max-width: 768px) {
+        body {
+            background-size: contain;
+        }
+        header, main, footer {
+            margin: 10px;
+            padding: 15px;
+            max-width: 100%;
+        }
+    }
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+h3 {
+    color: #777;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+}

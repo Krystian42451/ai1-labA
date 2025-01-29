@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styl dla sekcji - cienie i zaokrąglone rogi */
+header, main, footer {
+    border: none;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    max-width: 90%;
+    text-align: center;
+    background-image: url('background.jpg'); /* Zmień na właściwą ścieżkę obrazu */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dodatkowe style dla listy */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ff758c;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Media queries dla responsywności */
+@media (max-width: 768px) {
+    header, main, footer {
+        margin: 10px;
+        padding: 15px;
+        max-width: 100%;
+    }
+    ul li {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/* Styl dla głównego tytułu */
+h1 {
+    font-size: 3em; /* Większy rozmiar czcionki */
+    margin: 0;
+}
+
+/* Styl dla podtytułu */
+h2 {
+    font-size: 1.8em; /* Mniejszy rozmiar czcionki */
+    margin: 10px 0; /* Odstęp */
+}
+
+/* Styl dla sekcji głównej */
+main {
+    padding: 20px;
+    max-width: 800px; /* Maksymalna szerokość treści */
+    margin: auto; /* Wyśrodkowanie treści */
+}
+
+/* Styl dla nagłówków H3 */
+h3 {
+    font-size: 1.5em; /* Średni rozmiar czcionki */
+    margin-top: 20px; /* Odstęp od góry */
+    border-bottom: 2px solid #61dafb; /* Dolna linia */
+}
+
+/* Styl dla akapitów */
+p {
+    line-height: 1.6; /* Wysokość linii */
+    margin: 10px 0; /* Odstęp między akapitami */
+}
+
+/* Styl dla list */
+ul {
+    list-style-type: square; /* Kwadratowe punkty listy */
+    padding-left: 20px; /* Wcięcie */
+}
+
+/* Styl dla linków */
+a {
+    color: #61dafb; /* Kolor linków */
+    text-decoration: none; /* Bez podkreślenia */
+}
+
+a:hover {
+    text-decoration: underline; /* Podkreślenie po najechaniu */
+}
+
+/* Styl stopki */
+footer {
+    background-color: #61dafb; /* Jasnoniebieskie tło */
+    color: #282c34; /* Ciemnoszary tekst */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    padding: 10px;
+    position: fixed;
+    bottom: 0; /* Przyklejenie do dolnej części okna */
+    width: 100%; /* Szerokość na całą stronę */
+}
